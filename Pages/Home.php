@@ -1,6 +1,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!--<link href="../CSS/HambergerMenu.css" rel="stylesheet" />-->
         <link href="../CSS/Home.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -41,6 +43,7 @@
         </div>
 
         <div class="mainslider">
+
             <center>  <img src="../banners/navlogo.png"  />
                 <p>PlanMyTrip</p>
 
@@ -63,20 +66,22 @@
         <div class="hambergerMenudiv" data-stellar-background-ratio="0.3">
 
 
-            <h5 style="" class="wow bounceIn" data-wow-delay="1s">FIND EVERYTHING TO TAKEDOWN</h5>
-            <br>
+            <div>
+                <h5 style="" class="wow bounceIn" data-wow-delay="1s">FIND EVERYTHING TO TAKEDOWN</h5>
+                <br>
 
-            <p style="" class="wow zoomIn" data-wow-delay="1.5s">YOUR HOLIDAY</p>
-            <!--<p style="text-align: center;color: #ffffff;font-size:120px; font-family: 'Shadows Into Light', cursive;"></p>-->
+                <p style="" class="wow zoomIn" data-wow-delay="1.5s">YOUR HOLIDAY</p>
+                <!--<p style="text-align: center;color: #ffffff;font-size:120px; font-family: 'Shadows Into Light', cursive;"></p>-->
 
-            <center>
-                <table>
-                    <tr>
-                        <td> <input class="wow fadeInLeft" data-wow-delay="1.5s" id="firstbutton" type="button" value="Sign In" /></td>
-                        <td> <input  class="wow fadeInRight" data-wow-delay="1.5s" id="firstbutton" type="button" value="Register" /></td>
-                    </tr>
-                </table>
-            </center>
+                <center>
+                    <table>
+                        <tr>
+                            <td> <input class="wow fadeInLeft" data-wow-delay="1.5s" id="firstbutton" type="button" value="Sign In" /></td>
+                            <td> <input  class="wow fadeInRight" data-wow-delay="1.5s" id="firstbutton" type="button" value="Register" /></td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
 
 
         </div>
@@ -88,21 +93,21 @@
                     <td style="width: 80%;"><input type="text" value="" id="searchBar" placeholder=" Type Here"/></td>
                 </tr>
             </table>
-            
-            
+
+
         </div>
 
 
     </body>
 
     <script>
-        (function() {
+        (function () {
 
             'use strict';
 
             document.querySelector('.material-design-hamburger__icon').addEventListener(
                     'click',
-                    function() {
+                    function () {
                         var child;
 
                         document.body.classList.toggle('background--blur');

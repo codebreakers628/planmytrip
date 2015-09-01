@@ -1,10 +1,10 @@
 body{
-    
+
     margin: 0;
     padding: 0;
 }
 .topbar{
-    
+
     width: 100%;
     margin: 0px;
     height: 25px;
@@ -16,7 +16,7 @@ body{
     font-family: sans-serif;
 }
 .viewMenudiv{
-    
+
     width: 100%;
     height: 50px;
     background: #653eb3;
@@ -28,10 +28,10 @@ body{
     width: 60px;
     height: 50px;
     float: right;
-    
+
 }
 .viewMenudiv div img{
-    
+
     cursor: pointer;
 }
 
@@ -43,12 +43,12 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 .mainslider img {
-    
-   padding: 20px;
-   width: 60px;
-   height: 60px;
-   float: left;
-   
+
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    float: left;
+
 }
 .mainslider p{
     float: left;
@@ -62,42 +62,47 @@ body{
     margin-top: 40px;
 }
 .navMenuUl li{
-    
+
     display: inline;
     padding-right: 50px;
 }
 .navMenuUl a{
     font-size: 20px;
     cursor: pointer;
-    
+
 }
 .navMenuUl li:hover{
-    
-   text-decoration: underline;
+
+    text-decoration: underline;
     transition: 1s;
-    
+
 }
 
 .hambergerMenudiv{
-   
+
     z-index: 2;
     width: 100%;
     height:500px;
-    background:url(../banner11.jpg) ;
-    
+    background-image: url(../banner1.jpg);
+
     margin-top: -24px;
 }
+.hambergerMenudiv div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .hambergerMenudiv h5{
-    
+
     font-family: 'PT Sans', sans-serif;
     color: #ffffff;
-   text-align: center;
+    text-align: center;
     padding-top: 20px;
-    
+
 }
 .hambergerMenudiv p{
     margin-top: -70px;text-align: center;color: #ffffff;font-size: 160px;font-family: 'PT Sans', sans-serif;
-    
+
 }
 #firstbutton{
     margin-top: 0px;
@@ -113,11 +118,11 @@ body{
 #firstbutton:hover{
     background: #765dc2;
     transition: 0.5s;
-    
+
 }
 #searchButton{
-    
-    
+
+
     width: 100%;
     height: 54px;
     margin-top:-17px;
@@ -132,48 +137,48 @@ body{
     float: left;
 }
 #searchBar{
-    
+
     width: 100%;
     height: 50px;
     float: left;
     font-size: 23px;
     margin-top: -35px;
-    
+
 }
 /*==================================================== */
 @media screen and (max-width:950px){
-    
+
     .mainslider{
-        
+
         height: auto;
         margin-top: -17px;
-        
+
     }
     .mainslider img{
-        
+
         float: none;
         padding: 0px;
     }
     .mainslider p{
         float: none;
     }
-    
+
     .navMenuUl {
         float: none;
         padding-bottom: 10px;
-       
-       
+
+
     } 
     .navMenuUl li{
-       padding: 0;
-       padding-left: 40px;
-       padding-right: 50px;
-       
+        padding: 0;
+        padding-left: 40px;
+        padding-right: 50px;
+
         padding-bottom: 10px;
         padding-top: 10px;
     }
-    
-    
+
+
 }
 
 
@@ -190,28 +195,28 @@ body{
         float: none;
         padding-bottom: 10px;
         display: none;
-       
+
     }
     .navMenuUl{
-        
+
         padding: 0
     }
     .navMenuUl li{
         display: block;
-        
+
     }
-    
-    
+
+
 }
 .hambergerMenudiv p{
-    
+
     font-size: 100px;
     margin-top: 10px;
 }
 #firstbutton{
-    
-    
-  margin-top: -40px;
-    
-   
+
+
+    margin-top: -40px;
+
+
 }
