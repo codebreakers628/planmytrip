@@ -43,6 +43,7 @@
         </div>
 
         <div class="mainslider">
+              <img src="../banners/navlogo.png"  />
 
             <center>  <img src="../banners/navlogo.png"  />
                 <p>PlanMyTrip</p>
@@ -61,7 +62,7 @@
                     <li><a>About</a></li>
                 </ul>
 
-            </center>
+            
         </div>
         <div class="hambergerMenudiv" data-stellar-background-ratio="0.3">
 
@@ -89,8 +90,9 @@
         <div style="" >
             <table style="width: 100%;" cellspacing="0">
                 <tr>
-                    <td style="width: 20%"><input type="button" value="SEARCH" id="searchButton"/></td>
+                    
                     <td style="width: 80%;"><input type="text" value="" id="searchBar" placeholder=" Type Here"/></td>
+                    <td style="width: 20%"><input type="button" value="SEARCH" id="searchButton"/></td>
                 </tr>
             </table>
 

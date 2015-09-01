@@ -38,6 +38,8 @@ body{
 
 
 .mainslider{
+    margin-left: auto;
+    margin-right: auto;
     background: #653eb3;
     height: 100px;
     font-family: 'PT Sans', sans-serif;
@@ -134,7 +136,8 @@ body{
     font-family: 'PT Sans', sans-serif;
     border: 1px solid #ffffff;
     margin-bottom:20px;
-    float: left;
+    float: right;
+     
 }
 #searchBar{
 
@@ -143,7 +146,10 @@ body{
     float: left;
     font-size: 23px;
     margin-top: -35px;
-
+    border: none;
+    text-align: right;
+    border: 1px solid #ebebeb;
+    
 }
 /*==================================================== */
 @media screen and (max-width:950px){
@@ -214,6 +220,16 @@ body{
     margin-top: 10px;
 }
 #firstbutton{
+    
+    
+  margin-top: -40px;
+    
+   
+}
+#searchBar{
+    
+    font-size: 18px;
+}
 
 
     margin-top: -40px;
